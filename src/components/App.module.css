@@ -1,0 +1,31 @@
+.App {
+    text-align: center;
+}
+.button {
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: grey;
+    background: white;
+    cursor: pointer;
+    margin: 20px 0;
+    box-shadow: 0 12px 18px 2px rgba(34, 0, 51, 0.04),
+    0 6px 22px 4px rgba(7, 48, 114, 0.12),
+    0 6px 10px -4px rgba(14, 13, 26, 0.12);
+    transition: .2s ease-in;
+    outline: none;
+}
+.btnblue{
+    border: 1px solid steelblue;
+}
+.btnred{
+    border: 1px solid red;
+}
+.btnblue:hover{
+    background: steelblue;
+    color: white;
+}
+.btnred:hover{
+    background: maroon;
+    color: white;
+}

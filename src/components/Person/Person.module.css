@@ -7,10 +7,15 @@
     background: #ddd
 }
 
-input {
+.input {
     border: 1px solid steelblue;
     padding: 5px;
     font-size: 14px;
     margin-top: 10px;
 }
 
+@media (max-width: 450px){
+    .person {
+        width: 80%;
+    }
+}
